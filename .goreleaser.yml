@@ -60,9 +60,9 @@ archives:
     - goos: windows
       format: zip
   builds:
-  - darwin
-  - windows
-  - linux
+  - chain-maind-darwin
+  - chain-maind-windows
+  - chain-maind-linux
 checksum:
   name_template: 'checksums.txt'
 changelog:
@@ -79,7 +79,7 @@ brews:
     description: "chain-main daemon"
     homepage: "https://github.com/crypto-com/chain-main"
     github:
-      owner: "crypto-com"
+      owner: "linfeng-crypto"
       name: "homebrew-chain-maind"
     install: |
       bin.install "chain-maind"

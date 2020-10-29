@@ -183,7 +183,6 @@ endif
 .PHONY: release-dry-run
 release-dry-run:
 	docker run \
-		-it \
 		--rm \
 		--privileged \
 		-e CGO_ENABLED=1 \
